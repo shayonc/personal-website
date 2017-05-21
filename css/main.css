@@ -254,7 +254,7 @@ header {
   width: 40%;
   animation: fadein 2s linear;
   animation-fill-mode: both;
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
 }
 .profile {
   background-position: center center;
@@ -280,7 +280,7 @@ header {
     width: 20%;
     animation: fadein 2s linear;
     animation-fill-mode: both;
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
   }
   .profile {
     background-position: center center;
@@ -314,12 +314,12 @@ header .intro-text .intro-heading {
   animation-fill-mode: both;
 }
 header .intro-text .intro-heading:nth-child(1) {
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 header .intro-text .intro-heading:nth-child(2) {
   animation: fadein 0.8s linear;
   animation-fill-mode: both;
-  animation-delay: 2.0s;
+  animation-delay: 3.0s;
 }
 
 @media (min-width: 768px) {
@@ -340,12 +340,12 @@ header .intro-text .intro-heading:nth-child(2) {
     animation-fill-mode: both;
   }
   header .intro-text .intro-heading:nth-child(1) {
-    animation-delay: 1s;
+    animation-delay: 2s;
   }
   header .intro-text .intro-heading:nth-child(2) {
     animation: fadein 0.8s linear;
     animation-fill-mode: both;
-    animation-delay: 2.0s;
+    animation-delay: 3.0s;
   }
 }
 
@@ -394,7 +394,7 @@ header .intro-text .intro-heading:nth-child(2) {
 #mainNav {
   animation: fadein 0.8s linear;
   animation-fill-mode: both;
-  animation-delay: 2.0s;
+  animation-delay: 3.0s;
 }
 
 #mainName {
@@ -407,7 +407,16 @@ section {
 section h2.section-heading {
   font-size: 36px;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+}
+#tech-heading {
+  margin-bottom: 60px;
+}
+#proj-heading {
+  margin-bottom: 70px;
+}
+#contact-greeting {
+  color: #E6E8ED;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -618,7 +627,7 @@ section h3.section-subheading {
     left: 50%;
   }
   .timeline > li {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
@@ -765,10 +774,11 @@ footer {
   text-align: center;
 }
 footer span.copyright {
-  line-height: 70px;
+  line-height: 10px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  color: #93979e;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
